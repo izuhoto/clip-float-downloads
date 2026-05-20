@@ -1,3 +1,10 @@
+# Clip Float v1.0.3
+
+2026-05-21
+
+## Improvements
+- Fixed an issue where range selection in History Browser could not be extended with Shift + Arrow keys.
+
 # Clip Float v1.0.2
 
 2026-05-20
