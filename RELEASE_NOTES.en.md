@@ -1,13 +1,14 @@
-# Clip Float v1.0.3
+# Clip Float v1.0.4 2026-05-22
 
-2026-05-21
+- Improved Screen Recording permission flow
+  - When Screen Recording permission is missing, the app now requests permission first, and only opens System Settings if permission is still not granted.
+
+# Clip Float v1.0.3 2026-05-21
 
 ## Improvements
 - Fixed an issue where range selection in History Browser could not be extended with Shift + Arrow keys.
 
-# Clip Float v1.0.2
-
-2026-05-20
+# Clip Float v1.0.2 2026-05-20
 
 Version 1.0.2 Released
 
@@ -29,9 +30,7 @@ This release improves capture and history workflows with better usability, relia
 - Expanded and updated tests for capture session and history coordinator behavior.
 - Updated release/build process assets, including Makefile/README-related maintenance and release prep commits.
 
-# Clip Float v1.0.1
-
-2026-05-19
+# Clip Float v1.0.1 2026-05-19
 
 Version 1.0.1 focuses on stability and usability improvements across history browsing, window behavior, and distribution readiness.
 
@@ -45,11 +44,9 @@ Version 1.0.1 focuses on stability and usability improvements across history bro
 - Improved consistency of history and trash retention cleanup when settings are updated.
 - Added persistent trash sort order behavior for a more consistent browsing experience.
 
-# Clip Float v1.0.0
+# Clip Float v1.0.0 2026-05-15
 
-2026-05-15
-
-This is the first release of Clip Float.  
+This is the first release of Clip Float.
 You can use the basic features for screen capture, capture history management, and image editing.
 
 ## Highlights
