@@ -1,3 +1,19 @@
+# Clip Float v1.0.5 2026-08-09
+
+Version 1.0.5 expands editing workflows with OCR access from previews, canvas expansion, and richer line editing.
+
+## Highlights
+- Added OCR from the preview window gear menu. Recognition results are copied to the clipboard, and history previews can target either the full image or the current cropped area.
+- Added an Expand tool for adding transparent or solid-color padding around a captured image, so annotations can be placed outside the original capture.
+- Added Bezier curve support for line annotations and a Pen tool, including anchor/handle editing, point insertion/removal, and curve straightening.
+- Added a bottom status bar in the editor to show line/path editing hints when a line object is selected.
+
+## Improvements and Fixes
+- Improved text annotation editing: font size now follows the image display scale, text boxes grow only when content needs more space, and click/caret behavior is more stable.
+- Fixed OCR current-area targeting after multiple chained crops.
+- Fixed Expand gestures adding no-op Undo entries, and ensured unfinished Pen drafts are cleared when switching tools.
+- Improved curve point insertion/removal, arrow endpoint trimming, and exported arrow direction for curved lines.
+
 # Clip Float v1.0.4 2026-05-22
 
 - Improved Screen Recording permission flow
@@ -54,4 +70,3 @@ You can use the basic features for screen capture, capture history management, a
 - Saving and reopening history
 - Image editing
 - Adding and editing annotations
-
