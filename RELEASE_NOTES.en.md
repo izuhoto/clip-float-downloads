@@ -1,3 +1,13 @@
+# Clip Float v1.0.6 2026-08-19
+
+Version 1.0.6 improves capture-region accuracy on built-in displays and multi-display setups.
+
+## Improvements and Fixes
+- Fixed capture output drifting away from the selected area when using scaled built-in display modes.
+- Centralized capture overlay coordinate conversion, making mouse-position handling more reliable across multi-display layouts and global input monitoring.
+- Adjusted the capture overlay so menu bar, Dock, and notch constraints do not desync it from the actual screen frame.
+- Added tests for display scaling and coordinate conversion to catch capture-region regressions.
+
 # Clip Float v1.0.5 2026-08-09
 
 Version 1.0.5 expands editing workflows with OCR access from previews, canvas expansion, and richer line editing.
