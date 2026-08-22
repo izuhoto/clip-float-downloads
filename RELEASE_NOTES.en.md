@@ -1,3 +1,12 @@
+# Clip Float v1.0.7 2026-08-22
+
+Version 1.0.7 adds delayed region capture, making it easier to capture the screen after preparing menus or other transient UI.
+
+## Highlights
+- Added delayed capture for Region mode. Press `D` while selecting a region, then confirm the area to capture after a countdown.
+- Added `-` / `+` controls for adjusting the delay, plus a Settings default from 1 to 60 seconds.
+- Shows the remaining countdown time in the menu bar and adds a status-menu action to cancel delayed capture.
+
 # Clip Float v1.0.6 2026-08-19
 
 Version 1.0.6 improves capture-region accuracy on built-in displays and multi-display setups.
