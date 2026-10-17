@@ -1,3 +1,12 @@
+# Clip Float v1.0.8 2026-10-17
+
+Version 1.0.8 improves the arrow annotation used to highlight points on screen, with more appearance options.
+
+## Highlights
+- Renamed the tool from “Bold Arrow” to “Emphasis Arrow.”
+- Added shape choices for Emphasis Arrow (gently widening arrow, constant-width arrow, and line arrow).
+- Added a choice between filled and outline styles (except for the line arrow).
+
 # Clip Float v1.0.7 2026-08-22
 
 Version 1.0.7 adds delayed region capture, making it easier to capture the screen after preparing menus or other transient UI.
